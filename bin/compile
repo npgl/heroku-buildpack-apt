@@ -69,6 +69,6 @@ export CPATH="$INCLUDE_PATH"
 export CPPPATH="$INCLUDE_PATH"
 
 topic "Configuring LD"
-cat <<EOF /etc/ld.so.conf.d/apt.conf
+cat <<EOF >/etc/ld.so.conf.d/apt.conf
 /app/.apt/usr/lib/
 EOF
